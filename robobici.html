@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<center><h1 style="font-size: xx-large;">Formulario Bicicletas</h1></center>
+<p>Bienvenido a nuestra pagina de garantia de bicicletas, si estas aqui seguramete es porque algun plebeyo ha robado tu medio de transporte y no puedes llegar a nuestro maravilloso e unico club, por favor de ser el caso rellena el siguiente formulario siendo lo mas exacto posible.
+    gracias por confiar en nosotros, te responderemos con la brevedad posible 
+</p>
+
+    <form action="./robobici.html"
+    oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+
+        <fieldset>
+            
+            <fieldset>
+                <label >Nombre de socio</label><br>
+                <input type="text" required autofocus><br>
+                
+                <label for="DAY">Dia</label><br>
+                <input type="date" required> <br>
+                <label for="HORA">Hora</label> <br>
+                <input type="time" required><br>
+                <label for="COLOR">Color</label><br>
+                <input type="color" required> <br>
+                <label >Precio de la Bici</label> <br>
+                0
+                <input type="range" id="a" name="a" value="50" required>
+                100 +
+                  <input type="number" id="b" name="b" value="50" hidden>
+                =
+                <output name="x" for="a b"></output></fieldset>
+                <fieldset><p>TIPO DE BICICLETA</p>
+            
+                     <p>PASEO</p>
+                        <input type="radio" name="tipo de BICICLETA">
+                        <label >Señorial</label><br>
+                        <input type="radio" name="tipo de BICICLETA">
+                        <label >Anti-plebeyos</label> <br>
+                        <input type="radio" name="tipo de BICICLETA">
+                        <label >PorEncimaDelHombro</label><br>
+                        
+                         <p>MONTAÑA</p>
+                            <input type="radio" name="tipo de BICICLETA">
+                            <label >Gamusinos</label><br>
+                            <input type="radio" name="tipo de BICICLETA">
+                            <label >Gamusinos</label> <br>
+                            <input type="radio" name="tipo de BICICLETA">
+                            <label >Fango lover</label><br>
+                            
+                             <p>CARRERAS</p>
+                                <input type="radio" name="tipo de BICICLETA">
+                                <label >Metroymedio</label><br>
+                                <input type="radio" name="tipo de BICICLETA">
+                                <label >3 de la tarde (fluorescente edition)</label> <br>
+                                <input type="radio" name="tipo de BICICLETA">
+                                <label >Grupitors</label><br>
+                                </fieldset>
+            <fieldset>
+                        
+                 <p>ACCESORIOS</p>
+                    <input type="checkbox">
+                    <label >Ruedines</label><br>
+                    <input type="checkbox">
+                    <label >Pegatinas</label> <br>
+                    <input type="checkbox">
+                    <label >Cestita</label><br>
+                    <input type="checkbox">
+                    <label >Bomba de Aire</label><br>
+                    <input type="checkbox">
+                    <label >Timbre</label><br>
+                    <input type="checkbox">
+                    <label >Foco</label><br>
+                    
+                    <label for="Marca">Marca de la bici:</label>
+    <input list="Marca" name="">
+    <datalist id="Marca">
+      <option value="specialized">
+      <option value="trek">
+      <option value="scott">
+      <option value="giant">
+      <option value="cube">
+    </datalist>
+ 
+    <center> <input type="submit"> <input type="reset"></center> <br><br>
+    </fieldset></form>
+
+    
+                <p>Para volver a Nuestro Prestigiado Club pulsa <button><a href="./index.html">VIEJUNER</a></button></p>
+<br>
+<br>
+<center><button type="button" onclick="alert('Valar Morghulis')"> Don't Click Me!</button></center>
+
+</body>
+</html>
